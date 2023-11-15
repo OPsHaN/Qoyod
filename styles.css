@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;700&family=Tajawal:wght@400;700;900&display=swap");
 /* COMMON STYLES */
 :root {
-  --maincolor: #ffc527;
+  --maincolor: #48D8F7;
 }
 body {
   direction: rtl;
@@ -15,7 +15,7 @@ ul {
 }
 
 a {
-  color: #ffc527;
+  color: #48D8F7;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ h5 {
 }
 
 .home-item h6 {
-  color: #ffc527;
+  color: #48D8F7;
   font-weight: 600;
 }
 
@@ -184,7 +184,7 @@ h5 {
 }
 
 .single-icon {
-  background: #ffc527;
+  background: #48D8F7;
   height: 60px;
   width: 60px;
   line-height: 60px;
@@ -208,7 +208,7 @@ h5 {
 }
 
 .who-heading {
-  color: #ffc527;
+  color: #48D8F7;
   font-size: 36px;
   text-align: center;
   text-shadow: 0 0 7px #071c33 ;
@@ -224,7 +224,7 @@ h5 {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 100%;
   display: inline-block;
-  color: #ffc527;
+  color: #48D8F7;
   font-size: 70px;
   height: 140px;
   line-height: 140px;
@@ -235,7 +235,7 @@ h5 {
 }
 
 .play-btn:hover {
-  background-color: #ffc527;
+  background-color: #48D8F7;
   color: #fff;
 }
 
@@ -252,7 +252,7 @@ h5 {
     background: rgba(255, 255, 255, 0.6);
     border-radius: 100%;
     display: inline-block;
-    color: #ffc527;
+    color: #48D8F7;
     font-size: 45px;
     height: 90px;
     line-height: 90px;
@@ -385,7 +385,7 @@ footer {
 }
 
 .footer--desc p {
-  color: #ffc527;
+  color: #48D8F7;
 }
 
 .footer-social span {
@@ -410,7 +410,7 @@ footer {
 }
 
 footer a:hover {
-  color: #ae871b;
+  color: #0070f2;
 }
 
 .footer--copyright {
