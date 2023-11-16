@@ -91,15 +91,6 @@ h5 {
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
-  .home {
-    height: 400px;
-  }
-  .home-item {
-    width: 100%;
-  }
-}
-
 .home-item h2 {
   font-size: 45px;
   color: #fff;
@@ -108,6 +99,63 @@ h5 {
 .home-item p {
   font-size: 20px;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .home {
+    height: 350px;
+  }
+  .home-item {
+    width: 100%;
+
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .home {
+    height: 350px;
+  }
+
+  .home-item h2 {
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .home-item p {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .home-item button {
+    font-size: 12px
+  }
+  .home-item h6 {
+    font-size: 12px
+  }
+}
+
+@media (max-width: 320px) {
+  .home {
+    height: 350px;
+  }
+  .home-item h2 {
+    font-size: 29px;
+    color: #fff;
+  }
+  .home-item p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .home-item button {
+    font-size: 12px
+  }
+
+  .home-item h6 {
+    font-size: 12px
+  }
 }
 
 /* Projects ..................................................*/
@@ -139,6 +187,15 @@ h5 {
   margin-left: 10px;
 }
 
+
+@media (max-width: 768px) {
+  .qtaa  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 10px; */
+    align-items: stretch;
+  }
+}
 /* More Deatils .....................................................*/
 .box {
   display: block;
@@ -147,8 +204,23 @@ h5 {
 .box p {
   font-size: 18px;
 }
+@media (max-width: 768px) {
+  .box {
+    width:150px;
+  }
+  .box p{
+    font-size: 14px;
+  }
 
+  .box button{
+    font-size: 1rem;
+  }
+  .xwidth {
+    width:200px;
 
+  }
+
+}
 /* Why Choose us ..........................................*/
 .why__item {
   display: flex;
@@ -164,9 +236,20 @@ h5 {
   margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+
+  .why__item--desc h5 , p {
+    font-size: 14px;
+  }
+
+ }
+
+
 @media (max-width: 1000px) {
   .why__item {
     display: block;
+    padding: 10px 0;
+
   }
   .why__item img {
     width: 100%;
@@ -245,22 +328,33 @@ h5 {
   }
 
   .who-heading {
-    font-size: 25px;
-  }
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+ }
+
+ .who-video {
+  padding: 100px 0;
+  text-align: center;
+  padding:0;
+}
 
   .play-btn {
     background: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
     border-radius: 100%;
     display: inline-block;
     color: #48D8F7;
-    font-size: 45px;
-    height: 90px;
-    line-height: 90px;
-    padding-left: 12px;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    padding-top: 2px;
     text-align: center;
-    width: 90px;
+    width: 50px;
     transition: all 0.3s ease 0s;
   }
+
 }
 
 /* Empty ...............................................*/
@@ -290,7 +384,7 @@ h5 {
 }
 
 .subscribe__item h2 {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .subscribe__item .form {
@@ -479,22 +573,24 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 10%, rgba(0,0,0,.7) 10%);
   background-size: 3px 3px;
   z-index: 2;
   
 }
-h1 {
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 3;
-  max-width: 400px;
-  width: 100%;
-  height: 50px;
+
+@media (max-width: 768px) {
+  .bg-video-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: url(./images/slide-1.jpg) no-repeat center center/cover;
+  }
+
+ .bg-video-wrap video {
+
+    display: none;
+  
+  }
 }
