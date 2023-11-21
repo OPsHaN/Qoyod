@@ -582,13 +582,13 @@ video {
 
 
   @media (min-aspect-ratio: 16/9) {
-    video {
+   .bg-video-wrap video {
       width: 100%;
       height: auto;
     }
   }
   @media (max-aspect-ratio: 16/9) {
-    video {
+   .bg-video-wrap video {
       width: auto;
       height: 100%;
     }
@@ -616,7 +616,7 @@ video {
 
  @media (max-width: 768px) {
 
-  video {
+ .bg-video-wrap video {
     width: 100%;
     height: 100%;
   }
